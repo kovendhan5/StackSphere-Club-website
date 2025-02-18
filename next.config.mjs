@@ -8,6 +8,8 @@ try {
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/StackSphere-Club-website',
+  assetPrefix: '/StackSphere-Club-website/',
   eslint: {
     ignoreDuringBuilds: true,
   },
